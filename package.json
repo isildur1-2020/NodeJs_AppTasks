@@ -1,0 +1,21 @@
+{
+    "name": "app_tasks",
+    "version": "1.0.0",
+    "description": "Aplicación de consola creada con Node Js para crear, actualizar y borrar tareas",
+    "main": "index.js",
+    "scripts": {
+        "start": "node src/index.js",
+        "dev": "nodemon src/index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "node"
+    ],
+    "author": "tapitarias",
+    "license": "ISC",
+    "dependencies": {
+        "colors": "^1.4.0",
+        "inquire": "^0.4.8",
+        "yargs": "^16.2.0"
+    }
+}
